@@ -1,0 +1,4 @@
+Moje rozwiązanie opiera się na algorytmie Dijkstry puszczanym na grafie ponumerowanym w sposób zgodny z obrazkiem graf.png
+Algorytm znajduje najkrótsze ścieżki do wszystkich wierzchołków dla każdego z 4 hangarów.
+Korzystając ze struktur danych z biblioteki standardowej w prosty sposób odczytuję zapisane dystanse i sumuję "idąc" po podanej ścieżce.
+Zastanawiałem się czy skorzystac z algorytmu Dijkstry czy Floyda-Warshalla, który za jednym wywołaniem oblicza najkrótsze dystanse między wszystkimi wierzchołkami. Zdecydowałem się na Dijkstrę, ponieważ w teorii jest szybsza (tutaj zwiększamy złożoność jedynie o stałą wywołując ją dla każdego hangaru).
